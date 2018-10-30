@@ -1,0 +1,20 @@
+<html>
+<head>
+	{% include header.html %}
+</head>
+<body>
+	{% include navbar.html %}
+	<div class="container-fluid">
+		<div class="logo">
+			Bhumi <img src="{{ site.baseurl }}assets/logo_icon/rose.png" alt="" class="logo-icon"> Designs
+		</div>
+		<div class="container-fluid row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10 main_content">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+	{% include footer.html %}
+</body>
+</html>

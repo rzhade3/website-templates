@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Bhumi Designs
+description: > # this means to ignore newlines until "baseurl:"
+  Container gardens, seasonal color, small space gardens and garden coaching
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.bhumidesigns.com" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: BhumiDesigns
+instagram_username: bhumigardendesigns
+email: anju@bhumidesigns.com
+phone_number: 425-753-0983
+address:
+  street_name: 1234 Sesame Street,
+  city_state_zipcode: Redmond, WA 98052
+author:
+    twitter: rzhade
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,25 @@
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="social">
+			<ul class="contact">
+				{% if site.phone_number %}
+					<li><i class="fa fa-phone"></i> {{ site.phone_number}} </li>
+				{% endif %}
+				{% if site.facebook_username %}
+					<li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="fa fa-facebook" target="_blank"></a></li>
+				{% endif %}
+				{% if site.instagram_username %}
+					<li><a href="https://www.instagram.com/{{ site.instagram_username }}" class="fa fa-instagram" target="_blank"></a></li>
+				{% endif %}
+				{% if site.email %}
+					<li><a href="mailto:{{ site.email }}" class="fa fa-envelope"></a> </li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="copyright">
+			&copy; 2017 Bhumi Garden Designs LLC. All rights reserved.
+		</div>
+	</div>
+</footer>
